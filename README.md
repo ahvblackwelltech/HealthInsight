@@ -1,38 +1,35 @@
 # HealthInsight: AI-Based Diagnostic Support System
 
+
 HealthInsight is a full-stack project designed to assist doctors and patients in identifying potential illnesses based on symptoms and blood test results. The system uses machine learning to suggest likely conditions and provides interpretable outputs.
+
+
 
 # 🚀 Features
 
-Input patient symptoms and blood test data
+- Input patient symptoms and blood test data
 
-Predict top 5 possible conditions with confidence scores
+- Predict top 5 possible conditions with confidence scores
 
-Built-in explainability support (planned)
+- Built-in explainability support (planned)
 
-Designed for primary care and telemedicine applications
+- Designed for primary care and telemedicine applications
+
+
 
 # 🖥️ Tech Stack
 
-Layer
+Layer & Tech
 
-Tech
+- Frontend (React + Tailwind CSS)
 
-Frontend
+- Backend (FastAPI (Python))
 
-React + Tailwind CSS
+- ML (scikit-learn, RandomForest)
 
-Backend
+- Storage (In-memory / JSON (for MVP))
 
-FastAPI (Python)
 
-ML
-
-scikit-learn, RandomForest
-
-Storage
-
-In-memory / JSON (for MVP)
 
 # 📂 Project Structure
 
@@ -46,6 +43,8 @@ medpredict/
 │   └── model.pkl
 ├── README.md
 └── requirements.txt
+
+
 
 # ⚙️ Installation & Running
 
@@ -86,6 +85,8 @@ Output:
   { "condition": "Infection", "confidence": 45.3 }
 ]
 
+
+
 # 🧠 Future Enhancements
 
 Integrate SHAP for interpretability
@@ -96,14 +97,22 @@ Support CSV/PDF parsing for lab reports
 
 HIPAA/GDPR-compliant deployment
 
+
+
 # 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first.
+
+
 
 # 📄 License
 
 MIT License
 
+
+
 # 📬 Contact
 
-Built by [Your Name]Email: [your@email.com]LinkedIn: [linkedin.com/in/yourname]
+Built by Ahvi Blackwell 
+Email: [blackwellahvi@gmail.com]
+LinkedIn: [https://www.linkedin.com/in/ahvblackwelltech/]
