@@ -1,4 +1,4 @@
-#HealthInsight: AI-Based Diagnostic Support System
+HealthInsight: AI-Based Diagnostic Support System
 
 HealthInsight is a full-stack project designed to assist doctors and patients in identifying potential illnesses based on symptoms and blood test results. The system uses machine learning to suggest likely conditions and provides interpretable outputs.
 
